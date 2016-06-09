@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #333;
+    margin: 0;
 }
 p {
     line-height: 28px;
@@ -92,6 +93,7 @@ a:after {
 #headerwrap .logo {
 	text-align: left;
 	margin-top: 15px;
+	margin-bottom: 25px;
 }
 #f {
 	padding-top: 70px;
@@ -136,6 +138,7 @@ a:after {
 	background: #1a1a1a;
 	width: 200px;
 	height: 100%;
+	z-index: 10000;
 }
 .menu h1.logo a {
 	font-family: 'Oswald', sans-serif;
@@ -270,6 +273,14 @@ a:after {
 }
 .container {
 	text-align: left;
+}
+.white{
+	background-color: white;
+    padding-right: 500px;
+    padding-top: 0;
+    box-sizing: content-box;
+    margin-top: -10px;
+    padding-left: 75px;
 }
 .container .first_letter{
 	color: #7a100d;
@@ -450,51 +461,30 @@ a:after {
 /*--------------------*/
 
 #header{
-	float: left;
-	display: inline;
+	display: block;
 	width: 100%;
-	margin-top: 30px;
-}
-.header-inner{	
-	display: inline;
 	position: relative;
-	float: left;	
-	width: 100%;
 }
-.header-overlay{
-	background-color: rgba(0, 0, 0, 0.6);
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 10;
+.header-content h2{
+	max-width: 1000px;
 }
-.header-content {
-	float: left;
-	width: 100%;
-	height: 100%;
-	text-align: left;
-}
-.header-content h2 {
-	font-size: 52px;
-	font-weight: bold;
-	line-height: 75px;
+.wrapper{
 	color: white;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 75px;
+	font-size: 55px;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 .header_small{
-	font-size: 25px;
-	line-height: 75px;
+	font-size: 27px;	
+    line-height: 50px;
 }
-.header-content h2 span {
-	font-weight: normal;
-	line-height: 102px;
+.wrapper .green{
 	color: rgba(85, 215, 33, 0.8);
-	line-height: 75px;
-	font-size: 25px;
-}
-.header-slide{
-	max-width: 1000px;
+	font-size: 27px;	
+    line-height: 50px;
 }
 .popup-box {
     position: absolute;
@@ -545,6 +535,8 @@ a:after {
     left: 0;
     display: none;
 }
+
+
 
 @media(max-width:767px ){
 	.contact-right{
