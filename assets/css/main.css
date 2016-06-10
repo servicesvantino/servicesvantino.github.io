@@ -140,6 +140,9 @@ a:after {
 	height: 100%;
 	z-index: 10000;
 }
+.popup-link-1-1{
+	margin-top: 30px;
+}
 .menu h1.logo a {
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
@@ -151,7 +154,7 @@ a:after {
 	margin-top: 20px;
 }
 .menu h1.logo a:hover, #headerwrap h1:hover, .menu a:hover{
-	color: #6ad3d3;
+	color: #7a100d;
 }
 #Expertise h3:hover, #Flexibility h3:hover, #Control h3:hover, #Quality h3:hover, #Our_approach h3:hover, #Testimonials h3:hover, #contact h2:hover{
 	color: #7a100d;
@@ -322,7 +325,7 @@ a:after {
 .contact-form .form-control:focus {
     outline: 0;
     box-shadow: none;
-    border-color: #01b2b7;
+    border-color: #7a100d;
 }
 .contact-form .form-control::-webkit-input-placeholder {
 	color: #e2e2e2;
@@ -346,8 +349,8 @@ a:after {
 	margin-right: 0;
 	border-radius: 0px;
 	background-color: transparent;
-	color: white;
-	border: 1px solid white;
+	color: #7a100d;
+	border: 1px solid #7a100d;
 }
 .contact-form.button-default::after,
 .contact-form .button-default > span {
