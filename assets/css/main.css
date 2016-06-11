@@ -156,7 +156,7 @@ a:after {
 .menu h1.logo a:hover, #headerwrap h1:hover, .menu a:hover{
 	color: #7a100d;
 }
-#Expertise h3:hover, #Flexibility h3:hover, #Control h3:hover, #Quality h3:hover, #Our_approach h3:hover, #Testimonials h3:hover, #contact h2:hover{
+#Expertise h3:hover, #Flexibility h3:hover, #Control h3:hover, #Quality h3:hover, #Our_approach h3:hover, #Testimonials h3:hover{
 	color: #7a100d;
 	cursor: pointer;
 -webkit-transform: scale(1.1);
@@ -349,9 +349,14 @@ a:after {
 	margin-right: 0;
 	border-radius: 0px;
 	background-color: transparent;
-	color: #7a100d;
-	border: 1px solid #7a100d;
+	color: white;
+	border: 1px solid white;
 }
+.contact-form button:hover{
+	color: #7a100d;
+    border: 1px solid  #7a100d;
+}
+
 .contact-form.button-default::after,
 .contact-form .button-default > span {
 	padding: 12px 40px;  
